@@ -10,12 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const open = navLinks.classList.toggle('is-open');
     burger.classList.toggle('is-open', open);
     burger.setAttribute('aria-expanded', open);
+    document.body.classList.toggle('nav-open', open);
   });
   navLinks.querySelectorAll('a').forEach(a => {
     a.addEventListener('click', () => {
       navLinks.classList.remove('is-open');
       burger.classList.remove('is-open');
       burger.setAttribute('aria-expanded', false);
+      document.body.classList.remove('nav-open');
     });
   });
 

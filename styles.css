@@ -163,8 +163,14 @@ em{ font-style: italic; color: var(--copper); font-weight: 500; }
 
 @media (max-width: 900px){
   .nav__links{
-    position:fixed; inset: 62px 0 0 0; background: var(--cream);
-    flex-direction:column; padding: 2rem; gap: 1.4rem; font-size: 1.15rem;
+    position:fixed; top: 62px; left:0; right:0;
+    height: 100vh;
+    height: 100dvh;
+    z-index: 150;
+    background: var(--cream);
+    flex-direction:column; padding: 2rem 2rem 4rem; gap: 1.4rem; font-size: 1.15rem;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     transform: translateY(-8px); opacity:0; pointer-events:none;
     transition: opacity .3s var(--ease), transform .3s var(--ease);
   }
@@ -175,6 +181,8 @@ em{ font-style: italic; color: var(--copper); font-weight: 500; }
   .nav__burger.is-open span:nth-child(2){ opacity:0; }
   .nav__burger.is-open span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
 }
+
+body.nav-open{ overflow: hidden; }
 
 /* =================================================================
    HERO
