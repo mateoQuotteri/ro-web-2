@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudio POI — Protegemos lo que te hace único</title>
+<meta name="description" content="Estudio POI: firma especializada en Propiedad Intelectual y Derecho Marcario. Registro, defensa y estrategia legal para marcas, emprendimientos y empresas.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand" aria-label="Estudio POI">
+      <span class="brand-mark brand-mark--nav">
+        <span class="brand-mark__estudio">Estudio</span>
+        <span class="brand-mark__poi">P<span class="brand-mark__o">O</span><span class="brand-mark__i">ı<i class="brand-mark__dot"></i></span></span>
+      </span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#kits">Kits</a>
+      <a href="#planes">Planes</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a href="#contacto" class="btn btn--copper nav__cta">Registrar mi marca</a>
+    <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__grain" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">Propiedad Intelectual · Derecho Marcario</p>
+        <h1 class="hero__title">
+          Construiste<br>
+          una marca.<br>
+          <em>Ahora protegela.</em>
+        </h1>
+        <p class="hero__lede">Acompañamos a emprendedores, profesionales y empresas en cada etapa: desde la idea hasta la protección legal de lo que construyeron.</p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--copper">Registrar mi marca</a>
+          <a href="#nosotros" class="btn btn--ghost">Conocer cómo trabajamos</a>
+        </div>
+      </div>
+      <div class="hero__seal-wrap">
+        <div class="seal" id="hero-seal">
+          <svg viewBox="0 0 320 320" class="seal__svg">
+            <defs>
+              <path id="sealCircleTop" d="M 160,160 m -128,0 a 128,128 0 1,1 256,0 a 128,128 0 1,1 -256,0"/>
+            </defs>
+            <circle class="seal__ring-outer" cx="160" cy="160" r="150"/>
+            <circle class="seal__ring-inner" cx="160" cy="160" r="106"/>
+            <text class="seal__text">
+              <textPath href="#sealCircleTop" startOffset="0%">PROTEGEMOS LO QUE TE HACE ÚNICO • ESTUDIO POI • REGISTRO Y DEFENSA •</textPath>
+            </text>
+            <g class="seal__center">
+              <text x="160" y="150" class="seal__poi">POI</text>
+              <text x="160" y="182" class="seal__tm">ESTUDIO ™</text>
+            </g>
+          </svg>
+          <div class="seal__stamp-ring" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+    <button class="scroll-cue" id="scrollCue" aria-label="Bajar a la siguiente sección">
+      <span></span>
+    </button>
+  </section>
+
+  <!-- ============ QUIENES SOMOS ============ -->
+  <section class="section about" id="nosotros">
+    <div class="section__inner about__grid">
+      <div class="about__label reveal">
+        <p class="eyebrow">Quiénes somos</p>
+        <p class="about__quote">Una marca es mucho más que un nombre o un logotipo: es la identidad de un negocio, el reflejo de una idea y uno de los activos más valiosos de cualquier proyecto.</p>
+      </div>
+      <div class="about__body reveal">
+        <p>ESTUDIO POI es una firma especializada en Propiedad Intelectual y Derecho Marcario, creada para acompañar a emprendedores, profesionales y PyMEs en la protección, consolidación y crecimiento de sus marcas.</p>
+        <p>Acompañamos a cada cliente desde el análisis inicial de su proyecto hasta el registro, la protección y la defensa de sus derechos marcarios, ofreciendo un asesoramiento estratégico, personalizado y adaptado a cada etapa de crecimiento.</p>
+        <p>Priorizamos una comunicación transparente, un acompañamiento constante y un servicio basado en la confianza, la responsabilidad y la excelencia profesional. No solo registramos marcas: diseñamos estrategias para proteger la identidad de cada negocio y brindar la seguridad jurídica necesaria para que puedas enfocarte en lo más importante — hacer crecer tu proyecto.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS PRINCIPALES ============ -->
+  <section class="section services" id="servicios">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="eyebrow">Servicios principales</p>
+        <h2>Un camino, cuatro etapas legales.</h2>
+      </div>
+
+      <div class="tabs reveal" id="serviceTabs">
+        <div class="tabs__nav" role="tablist">
+          <button class="tabs__btn is-active" data-tab="0" role="tab" aria-selected="true">
+            <span class="tabs__num">01</span>
+            <span class="tabs__label">Proteger tu marca</span>
+          </button>
+          <button class="tabs__btn" data-tab="1" role="tab" aria-selected="false">
+            <span class="tabs__num">02</span>
+            <span class="tabs__label">Hacer crecer tu negocio</span>
+          </button>
+          <button class="tabs__btn" data-tab="2" role="tab" aria-selected="false">
+            <span class="tabs__num">03</span>
+            <span class="tabs__label">Tu negocio digital</span>
+          </button>
+          <button class="tabs__btn" data-tab="3" role="tab" aria-selected="false">
+            <span class="tabs__num">04</span>
+            <span class="tabs__label">Escalar tu empresa</span>
+          </button>
+        </div>
+
+        <div class="tabs__panels">
+          <!-- 01 -->
+          <div class="tabs__panel is-active" data-panel="0">
+            <p class="tabs__intro">"Todo comienza con una marca protegida."</p>
+            <div class="service-grid">
+              <div class="service-item">
+                <h3>Búsqueda de antecedentes</h3>
+                <p>Analizamos la viabilidad de la marca antes de iniciar el trámite para reducir riesgos y aumentar las posibilidades de obtener el registro.</p>
+              </div>
+              <div class="service-item">
+                <h3>Registro de marca</h3>
+                <p>Gestionamos el proceso completo de inscripción ante el INPI, acompañándote desde la solicitud hasta la obtención del título.</p>
+              </div>
+              <div class="service-item">
+                <h3>Renovación de marcas</h3>
+                <p>Controlamos los vencimientos y realizamos las renovaciones para mantener vigente la protección.</p>
+              </div>
+              <div class="service-item">
+                <h3>Vigilancia marcaria</h3>
+                <p>Monitoreamos nuevas solicitudes para detectar marcas que puedan afectar tus derechos.</p>
+              </div>
+              <div class="service-item">
+                <h3>Defensa de marca</h3>
+                <p>Representación en oposiciones, intimaciones, negociaciones y estrategias de protección frente a terceros.</p>
+              </div>
+              <div class="service-item">
+                <h3>Protección internacional</h3>
+                <p>Asesoramiento para registrar y proteger marcas fuera de Argentina.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 02 -->
+          <div class="tabs__panel" data-panel="1">
+            <p class="tabs__intro">"Cuando tu emprendimiento crece, también aparecen nuevos desafíos legales."</p>
+            <div class="service-grid">
+              <div class="service-item service-item--wide">
+                <h3>Contratos comerciales</h3>
+                <p>Diseñamos contratos adaptados a cada etapa del negocio: prestación de servicios, proveedores, acuerdos comerciales, freelancers, colaboraciones, influencers, distribución y representación comercial.</p>
+              </div>
+              <div class="service-item">
+                <h3>Contratos de confidencialidad (NDA)</h3>
+                <p>Protegé tus ideas, desarrollos, información y proyectos antes de compartirlos con terceros. Ideal para startups, programadores, agencias y empresas tecnológicas.</p>
+              </div>
+              <div class="service-item">
+                <h3>Licencias de uso</h3>
+                <p>Si querés permitir que terceros utilicen tu marca, desarrollamos contratos de licencia adaptados a tu negocio.</p>
+              </div>
+              <div class="service-item">
+                <h3>Cesión de marca</h3>
+                <p>Gestionamos la transferencia legal de marcas registradas entre personas o empresas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 03 -->
+          <div class="tabs__panel" data-panel="2">
+            <p class="tabs__intro">"El mundo digital también necesita respaldo legal."</p>
+            <div class="service-grid">
+              <div class="service-item">
+                <h3>Términos y condiciones</h3>
+                <p>Redactamos los términos legales para páginas web, plataformas y tiendas online.</p>
+              </div>
+              <div class="service-item">
+                <h3>Política de privacidad</h3>
+                <p>Adecuamos tu sitio web al tratamiento responsable de datos personales.</p>
+              </div>
+              <div class="service-item">
+                <h3>Política de cambios y devoluciones</h3>
+                <p>Especialmente pensada para e-commerce.</p>
+              </div>
+              <div class="service-item">
+                <h3>Aviso legal</h3>
+                <p>Toda la documentación jurídica necesaria para operar con transparencia.</p>
+              </div>
+              <div class="service-item service-item--wide">
+                <h3>Asesoramiento para tiendas online</h3>
+                <p>Acompañamos negocios digitales en el cumplimiento de la normativa aplicable: información obligatoria, derechos del consumidor, protección de datos, medios de pago, publicidad digital y comercio electrónico.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 04 -->
+          <div class="tabs__panel" data-panel="3">
+            <p class="tabs__intro">"Cuando tu negocio deja de ser un emprendimiento y comienza a convertirse en una empresa."</p>
+            <div class="service-grid">
+              <div class="service-item service-item--wide">
+                <h3>Franquicias</h3>
+                <p>Asesoramiento integral para quienes desean expandir su modelo de negocio mediante franquicias: contrato de franquicia, manual legal, protección marcaria, licencias y estrategia de expansión.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESO ============ -->
+  <section class="section process" id="proceso">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="eyebrow eyebrow--light">Cómo trabajamos</p>
+        <h2 class="light-heading">Te acompañamos en cada etapa.</h2>
+      </div>
+      <div class="stepper reveal" id="stepper">
+        <div class="stepper__line"><div class="stepper__line-fill" id="stepperFill"></div></div>
+        <div class="stepper__step" data-step="0">
+          <span class="stepper__dot"></span>
+          <span class="stepper__label">Idea</span>
+        </div>
+        <div class="stepper__step" data-step="1">
+          <span class="stepper__dot"></span>
+          <span class="stepper__label">Marca</span>
+        </div>
+        <div class="stepper__step" data-step="2">
+          <span class="stepper__dot"></span>
+          <span class="stepper__label">Crecimiento</span>
+        </div>
+        <div class="stepper__step" data-step="3">
+          <span class="stepper__dot"></span>
+          <span class="stepper__label">Expansión</span>
+        </div>
+        <div class="stepper__step stepper__step--final" data-step="4" id="finalStep">
+          <span class="stepper__dot stepper__dot--stamp"></span>
+          <span class="stepper__label">Protección</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KITS ============ -->
+  <section class="section kits" id="kits">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="eyebrow">Productos diferenciales</p>
+        <h2>Un kit para cada etapa de tu negocio.</h2>
+      </div>
+      <div class="kit-grid reveal">
+        <article class="kit-card">
+          <p class="kit-card__num">Kit 01</p>
+          <h3>Kit Emprendedor</h3>
+          <p class="kit-card__for">Para quienes están dando sus primeros pasos.</p>
+          <ul>
+            <li>Consulta inicial</li>
+            <li>Búsqueda de antecedentes</li>
+            <li>Registro de marca</li>
+            <li>Asesoramiento estratégico</li>
+            <li>Guía de uso correcto de la marca</li>
+          </ul>
+        </article>
+        <article class="kit-card kit-card--featured">
+          <p class="kit-card__num">Kit 02</p>
+          <h3>Kit PyME</h3>
+          <p class="kit-card__for">Pensado para quienes venden por internet.</p>
+          <ul>
+            <li>Registro de marca</li>
+            <li>Términos y condiciones</li>
+            <li>Política de privacidad</li>
+            <li>Política de cambios</li>
+            <li>Aviso legal</li>
+          </ul>
+        </article>
+        <article class="kit-card">
+          <p class="kit-card__num">Kit 03</p>
+          <h3>Kit Empresa</h3>
+          <p class="kit-card__for">Para PyMEs en crecimiento.</p>
+          <ul>
+            <li>Vigilancia marcaria</li>
+            <li>Renovación</li>
+            <li>Contratos comerciales</li>
+            <li>Licencias</li>
+            <li>Consultoría</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLAN POI ============ -->
+  <section class="section plans" id="planes">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="eyebrow">Plan POI — Abonos de asesoramiento</p>
+        <h2>Acompañamiento legal continuo.</h2>
+      </div>
+      <div class="plan-split reveal">
+        <div class="plan-card plan-card--light">
+          <p class="plan-card__tag">A</p>
+          <h3>POI Start</h3>
+          <p class="plan-card__for">Pensado para emprendedores.</p>
+          <ul>
+            <li>Consultas ilimitadas por WhatsApp</li>
+            <li>Descuentos en servicios</li>
+            <li>Alertas de vencimientos</li>
+            <li>Seguimiento prioritario</li>
+          </ul>
+        </div>
+        <div class="plan-card plan-card--dark">
+          <p class="plan-card__tag">B</p>
+          <h3>POI Business</h3>
+          <p class="plan-card__for">Para empresas. Incluye todo lo de POI Start, además de:</p>
+          <ul>
+            <li>Revisión de contratos</li>
+            <li>Vigilancia de marcas</li>
+            <li>Reuniones mensuales</li>
+            <li>Asesoramiento preventivo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS A MEDIDA ============ -->
+  <section class="section custom-services">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="eyebrow">Servicios a tu medida</p>
+        <h2>Para necesidades específicas de tu negocio.</h2>
+      </div>
+      <div class="accordion reveal" id="accordion">
+        <div class="accordion__item is-open">
+          <button class="accordion__trigger">
+            <span>Asesoramiento empresarial</span>
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__panel">
+            <p>Constitución de sociedades · Modificaciones societarias · Acuerdos entre socios · Due diligence legal · Auditorías legales · Compliance y programas de cumplimiento · Gobierno corporativo · Gestión de riesgos legales.</p>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span>Internacionalización</span>
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__panel">
+            <p>Protección internacional de marcas · Gestión de portafolios internacionales · Coordinación con corresponsales extranjeros · Estrategias de protección de activos intangibles en distintos países.</p>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span>Resolución de conflictos</span>
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__panel">
+            <p>Negociación · Mediación · Gestión de reclamos · Asistencia en procedimientos administrativos · Coordinación de litigios con estudios especializados.</p>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span>Capacitación</span>
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__panel">
+            <p>Cursos y talleres para empresas · Capacitaciones en propiedad intelectual · Formación en compliance y protección de activos intangibles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ POR QUE ELEGIR POI ============ -->
+  <section class="section why">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="eyebrow">¿Por qué elegir POI?</p>
+        <h2>Detrás de cada marca hay una historia, una inversión y un proyecto.</h2>
+      </div>
+      <div class="why-grid reveal">
+        <div class="why-card">
+          <svg class="why-icon" viewBox="0 0 48 48"><path d="M24 4 8 10v12c0 11 7 18.5 16 22 9-3.5 16-11 16-22V10Z"/><path class="why-icon__check" d="m17 24 5 5 10-11"/></svg>
+          <h3>Atención personalizada</h3>
+          <p>Cada cliente y cada marca son distintos, y así los tratamos.</p>
+        </div>
+        <div class="why-card">
+          <svg class="why-icon" viewBox="0 0 48 48"><rect x="10" y="6" width="28" height="36" rx="2"/><path d="M17 2h14v8H17z"/><path d="M16 18h16M16 25h16M16 32h10"/></svg>
+          <h3>Gestión integral</h3>
+          <p>Del análisis inicial al registro y la defensa, todo en un mismo lugar.</p>
+        </div>
+        <div class="why-card">
+          <svg class="why-icon" viewBox="0 0 48 48"><path d="M24 6c-7 5-15 6-15 6v14c0 10 6.5 16 15 18 8.5-2 15-8 15-18V12s-8-1-15-6Z"/><path d="M24 16v10M24 30v.5"/></svg>
+          <h3>Protección continua</h3>
+          <p>Vigilamos y renovamos para que tu marca nunca quede desprotegida.</p>
+        </div>
+        <div class="why-card">
+          <svg class="why-icon" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M12 20h24M14 28h20M24 6c4 5 6 11 6 18s-2 13-6 18M24 6c-4 5-6 11-6 18s2 13 6 18"/></svg>
+          <h3>Comunicación clara</h3>
+          <p>Asesoramiento jurídico claro, accesible y sin tecnicismos innecesarios.</p>
+        </div>
+        <div class="why-card">
+          <svg class="why-icon" viewBox="0 0 48 48"><path d="M24 4 6 12v8c0 12 7.5 20.5 18 24 10.5-3.5 18-12 18-24v-8Z"/></svg>
+          <h3>Enfoque emprendedor</h3>
+          <p>Entendemos las necesidades reales de quien está empezando.</p>
+        </div>
+        <div class="why-card">
+          <svg class="why-icon" viewBox="0 0 48 48"><rect x="6" y="10" width="36" height="26" rx="2"/><path d="M6 16h36M14 24h8M14 29h14"/></svg>
+          <h3>Especialistas en marcas</h3>
+          <p>Nuestro único foco es la propiedad intelectual y el derecho marcario.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CIERRE ============ -->
+  <section class="closing">
+    <div class="closing__inner reveal">
+      <p class="closing__quote">
+        Las grandes empresas empezaron con una idea.<br>
+        Las grandes marcas empezaron con <em>un nombre</em>.
+      </p>
+      <p class="closing__sub">Asegurate de que el tuyo esté protegido desde el primer día.</p>
+      <a href="#contacto" class="btn btn--copper">Registrar mi marca</a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="section contact" id="contacto">
+    <div class="section__inner contact__grid">
+      <div class="contact__info reveal">
+        <p class="eyebrow">Comunicate con nosotros</p>
+        <h2>¿Dudas o consultas?<br>Contactanos.</h2>
+        <ul class="contact__list">
+          <li>
+            <span class="contact__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <span>Oficina: Buenos Aires, Argentina</span>
+          </li>
+          <li>
+            <span class="contact__icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            </span>
+            <span>Lunes a viernes, de 10 a 18 hs</span>
+          </li>
+        </ul>
+        <div class="contact__actions">
+          <a href="https://wa.me/5491173620775" class="btn btn--copper" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://instagram.com/estudiopoi" class="btn btn--ghost" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <form class="contact__form reveal" id="contactForm">
+        <label>
+          <span>Nombre</span>
+          <input type="text" name="nombre" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <span>Contanos tu proyecto</span>
+          <textarea name="mensaje" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--copper btn--full">Enviar consulta por WhatsApp</button>
+        <p class="contact__form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__split">
+    <div class="footer__side footer__side--light">
+      <span class="brand-mark brand-mark--footer">
+        <span class="brand-mark__estudio">Estudio</span>
+        <span class="brand-mark__poi">P<span class="brand-mark__o">O</span><span class="brand-mark__i">ı<i class="brand-mark__dot"></i></span></span>
+      </span>
+    </div>
+    <div class="footer__side footer__side--dark">
+      <p class="footer__institutions-label">Formamos parte de las siguientes instituciones</p>
+      <div class="footer__institutions-logos">
+        <span class="footer__institution-badge">
+          <img src="assets/cpacf-logo.png" alt="Colegio Público de la Abogacía de la Capital Federal">
+        </span>
+        <span class="footer__institution-badge">
+          <img src="assets/inpi-logo.png" alt="INPI Argentina">
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year"></span> Estudio POI. Protegemos lo que te hace único.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
