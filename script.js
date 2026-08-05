@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ---------- Contact form -> WhatsApp ----------
      Reemplazá este número por el de WhatsApp real de Estudio POI
      (mismo formato que el botón de WhatsApp del bloque de contacto). */
-  const WHATSAPP_NUMBER = '5491173620775';
+  const WHATSAPP_NUMBER = '5491130169196';
 
   const form = document.getElementById('contactForm');
   const note = document.getElementById('formNote');
