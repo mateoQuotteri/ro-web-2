@@ -802,3 +802,28 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.01em;
   fill: var(--ink-soft); transform: translateY(12px);
 }
+
+/* En mobile el mapa completo achicado hace ilegibles los pines y textos,
+   así que se muestra a un ancho fijo legible y se desliza horizontalmente. */
+.world-map-hint{
+  display:none;
+  text-align:center;
+  font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.04em;
+  color: var(--ink-faint); margin: 0 0 1rem;
+}
+@media (max-width: 760px){
+  .world-map-section .section__inner{ padding: 0 1.2rem; }
+  .world-map-hint{ display:block; }
+  .world-map{
+    max-width: none;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    padding-bottom: 0.6rem;
+  }
+  .world-map__svg{
+    width: 880px;
+    max-width: none;
+    flex-shrink: 0;
+  }
+}
